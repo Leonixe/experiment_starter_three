@@ -1,0 +1,33 @@
+{
+  "name": "experiment_starter_three",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "hot": "NODE_ENV=development webpack-dev-server --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonixe/experiment_starter_three.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonixe/experiment_starter_three/issues"
+  },
+  "homepage": "https://github.com/Leonixe/experiment_starter_three#readme",
+  "devDependencies": {
+    "laravel-mix": "^2.1.11",
+    "raw-loader": "^0.5.1"
+  },
+  "dependencies": {
+    "dat.gui": "^0.7.2",
+    "gsap": "^2.0.1",
+    "three": "^0.93.0",
+    "three-orbit-controls": "^82.1.0"
+  }
+}
